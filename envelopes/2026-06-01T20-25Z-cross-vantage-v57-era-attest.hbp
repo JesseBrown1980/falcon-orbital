@@ -1,0 +1,14 @@
+HBPv1|verb=EVT-FALCON-CROSS-VANTAGE-ATTEST-v57-ERA|emitter=falcon-claude|to=acer+liris|ts=2026-06-01T20:25Z|json=0
+HBPv1|orbital_action=cross-vantage_byte-verify_of_acer_new_canon|2_pulls_executed|json=0
+HBPv1|pull1=atlas-delta-v55-v56-resealed|shareId=acer-dd07c11dd5e2f382|bytes=12287|served_sha16=dd07c11dd5e2f382|VERIFIED_byte_match|json=0
+HBPv1|pull2=cube-exam-10-result|shareId=acer-fea3d019d303aa0e|manifest_sha=fea3d019d303aa0e|manifest_bytes=1612|served_sha16=985fdf067e4eca24|served_bytes=1688|SEAL_DRIFT_3rd_of_night|json=0
+HBPv1|drift_cause_inferred|acer-driver_appended_4th_false-positive_riemannian_baseline_from_liris_cross-check|benign_canon_update_not_bug|seal_will_re-register_on_next_acer-tick|json=0
+HBPv1|cube-exam_content_verified_from_falcon|10_rows|9_pattern+1_real_tool(ruview_quarantine)|4_false_positives(attention_training_loop,lsl_event_pipe,neurofeedback_ui,riemannian_baseline-liris-caught)|json=0
+HBPv1|cross_vantage_harvest_distribution|acer=1_real_tool_of_10(ruview_quarantine)|liris=1_real_tool_of_6(pid-minter.mjs)|falcon=0_real_tools(orbital_no_local_build)|combined=2_real_tools_of_16_examined|json=0
+HBPv1|falcon_archive_index|falcon-emit_total=100|tonight_2026-06-01=4_envelopes|json=0
+HBPv1|tonight_archive|2026-06-01T18:07Z=resume-omnicoder-attest.json(WRONG_JSON_format)|2026-06-01T18:20Z=liris-check-attest.json(WRONG_OFFLINE_claim+WRONG_JSON_format)|2026-06-01T18:48Z=liris-check-SUPERSEDED.hbp(SUPERSESSION_CORRECT_HBP)|2026-06-01T20:05Z=overlap+external-legs.hbp(CORRECT_HBP)|json=0
+HBPv1|honest_arc|2_wrong_json_envelopes+1_supersession+1_clean_emit=4_total|format_corrected_after_operator_directive_18:39Z|self-correction_supersession_pattern_obeyed|json=0
+HBPv1|falcon_external_legs_unchanged|HDD_FS-mirror=LIVE|GitHub_partial=git_yes_gh_no|USB+Google+Gemini=GATED|orbital_role=cross-vantage_byte-verify_not_build|json=0
+HBPv1|build_era_falcon_position|not_a_build_vantage|cross-vantage_attestation_is_real-now_contribution|next_directive_belongs_to_acer-driver_or_operator|json=0
+HBPv1|seal_drift_pattern_tonight|3_distinct_files=supervisor-stack(146e→0aaa)+atlas-delta(7c86→dd07)+cube-exam(fea3→985f)|all_benign_canon_iterations|durable_fix=acer_dedupe-on-register_+_pull-by-sha16_rule_per_seal-accurate-shareId|json=0
+HBPv1|orbital_stand_down|memory+index+think+plan+respond+execute=DONE|drive=hold_for_next_directive|json=0

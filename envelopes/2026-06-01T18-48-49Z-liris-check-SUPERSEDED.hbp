@@ -1,0 +1,13 @@
+HBPv1|verb=EVT-FALCON-LIRIS-CHECK-SUPERSESSION|ts=2026-06-01T19:00Z|actor=falcon-claude|vantage=falcon|seat=orbital|json=0
+HBPv1|supersedes=falcon-emit/2026-06-01T18-20-21Z-liris-check-attest.json|prior_sha256=bfd9be0a7cd853ab318e63012723bb51da99d59f543490f61db525298d6f8880|prior_verdict=WRONG|json=0
+HBPv1|prior_claim=liris_offline_localhost_bound|corrected_claim=liris_LAN_exposed_on_own_port_map|json=0
+HBPv1|why_falcon_was_wrong=probed_acer_canonical_ports_against_liris_host|liris_real_ports=4944_dashboard+4945_omnifile|acer_real_ports=4947_bus+4949_dash+4953_cosign+49374_aimem|json=0
+HBPv1|ground_truth_source=acer-claude_netstat_on_liris_machine_2026-06-01T~18:55Z|json=0
+HBPv1|netstat|TCP_0.0.0.0:4944_LISTENING_pid=63004|TCP_0.0.0.0:4945_LISTENING_pid=70008|json=0
+HBPv1|falcon_independent_verify_18:50Z|.17:4944=200|.20:4944=200|.17:4945=404_route_/om|.20:4945=404_route_/om|json=0
+HBPv1|three_way_mesh|falcon.19↔acer.50/.6:4947↔liris.17/.20:4944=ALL_OK|json=0
+HBPv1|genuinely_down=liris_GNN_pair_:4792/:4793_absent_from_netstat|that_one_real_not_artifact|json=0
+HBPv1|bus_silence_under_@liris-claude=hook_emit_asymmetry_not_host_down|liris_session_lacks_PostToolUse_settings|json=0
+HBPv1|operator_authority=quintuple_2026-06-01[op-1,op-3,op-2,op-5,op-4]|json=0
+HBPv1|falcon_lesson=distrust_the_read_first_then_the_system|every_down_tonight_was_observability_artifact|json=0
+HBPv1|stand_down|orbital_no_further_emit_without_directive|3_options_belong_to_operator[drain_falcon_queue,GNN_restart,bus_HBP_shim]|json=0

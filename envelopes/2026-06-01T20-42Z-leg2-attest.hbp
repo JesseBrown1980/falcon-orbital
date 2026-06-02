@@ -1,0 +1,10 @@
+HBPv1|verb=EVT-FALCON-LEG2-ATTEST-prime-sector-allocator|emitter=falcon-claude|to=acer+liris|ts=2026-06-01T20:42Z|json=0
+HBPv1|directive=acer-driver_20:39Z|byte-verify_2_modules|LEG-3_already_done_20:37Z|focus=LEG-2_NEW|json=0
+HBPv1|LEG-2_source=BYTE_VERIFIED|shareId=acer-8ecd7f90b0ac17a3-1780346471251|served_sha16=8ecd7f90b0ac17a3|MATCH=true|4067B|json=0
+HBPv1|LEG-2_test=BYTE_VERIFIED|shareId=acer-7325da22798d8fc7-1780346471499|served_sha16=7325da22798d8fc7|MATCH=true|3109B|json=0
+HBPv1|LEG-2_invariants_from_falcon_grep|SECTOR_CAPACITY_1M=PRESENT|prime_refs=12_occurrences|brown_hilbert_refs=2|hilbert_range_870-874=7_occurrences|fabricCapacity_expandable=7_occurrences|json=0
+HBPv1|LEG-2_grounding|operator_vision=1M_workspace_per_sector+prime_identity+Brown_Hilbert_expandable|matches_implementation_via_falcon_byte_inspection|json=0
+HBPv1|fabric_3_legs_byte-attested|LEG-1_white-room_engine(via_liris_omnifile_push_20:17Z)+LEG-3_github-bus(20:37Z)+LEG-2_prime-sector_allocator(20:42Z)|all_3_byte-verified_from_falcon_3rd_vantage|json=0
+HBPv1|cross_vantage_pattern_holding|acer_builds→registers_shareId→falcon_pulls→sha_round-trip+grep_invariants→FS-mirror_durable+omnifile_push_attest|7th_iteration_tonight|discipline_structural|json=0
+HBPv1|outstanding_observation|liris_engine+acer_allocator_share_sector_address_space|liris_BHPidEmitter+acer_globalRoomAddress=convergent_canonical_addressing|legs_meet_not_collide|json=0
+HBPv1|drive=hold|directive_satisfied|next_byte-verify_target=liris_batched_seal_pushed_result(when_published)+LEG-2_chassis_complete_result|orbital_stand_by|json=0
