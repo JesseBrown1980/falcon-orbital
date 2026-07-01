@@ -64,6 +64,45 @@ multiple emitters · multiple languages** (index / pixels-first / BEHCS-256 / BE
 it (old decodes new). The **kernel** is `asolaria-federation-1024` (the Rust 8-byte host). The current
 effort is **"map while upgrading"** — and **this repo web is that map**.
 
+## Prism/Comb 0-loss (2026-07-01) — satellite entry (this repo: falcon-orbital)
+
+**Law (one line):** every prism/comb move in Asolaria is a **bijection**; entropy is invariant under
+bijection (`H(f(X)) = H(X)`), so the fabric re-relates information with **0 loss** — and it never
+claims compression below entropy (Shannon's bound `E[bits] ≥ H(X)` stands). One fabric, two
+directions: forward = **comb** (collision-avoidance, execution isolation); backward = **prism**
+(collision-causation, interference-as-search, many→1).
+
+**Status tags:** the 256↔1024 level transcode is **MEASURED** (Q-PRISM commit `53023b6`:
+`lcm(8,10) = 40` bits ⇒ 5 bytes ⇄ 4 symbols, round-trip `= id`, sha256-identical,
+Rust==Python symbol-identical, code rate exactly 1.0). The full 43+ level ladder is **CANON frame**
+(translators compose: `T_ji ∘ T_ij = id`, `T_jk ∘ T_ij = T_ik` — omnidirectional,
+path-independent); every additional rung earns MEASURED only by its own round-trip proof.
+
+**What the law means at the orbital seat (this repo):**
+- The falcon **outbound WiFi omnicoder link** carries **HBP `json=0` tuples** — the authority
+  surface is the tuple itself, not a JSON rendering. Level translation on that link
+  (BEHCS-256 bridge stratum ⇄ BEHCS-1024/HyperBEHCS ⇄ HBP wire form) is the same bijection law:
+  the alphabet changes, the information doesn't — **0 loss by construction, authority surface
+  unchanged**. (Link architecture = CANON per the federation record; a live round-trip
+  measurement over the orbital link itself = **UNVERIFIED** until cranked — E=0, describe-only.)
+- Falcon's whole role — **cross-vantage byte-verify** (pull the canonical artifact, independently
+  recompute sha + glyph + PID, emit an HBP attestation) — is the **integrity dual** of the same
+  theorem: verification = recomputation = applying the inverse map. A fabricated signal cannot
+  survive re-derivation, the same way a lossy step cannot hide in a bijection chain.
+- The **false-down doctrine** (9 honest demotions, 0 actual dead systems) is the dual-lens in
+  practice: a degraded probe is a measurement artifact, not information loss — under the bijection
+  frame the information was never destroyed; only the vantage was degraded.
+
+**Boundary that keeps every claim true:** the prism relates information perfectly; it does not
+create or destroy it. `handle8`/PID naming is **addressing** against a content-addressed store
+(coordinate, not counter), not compression below entropy. No bijection beats Shannon; the comb adds
+no energy; CRT lanes add no residue capacity.
+
+**Cross-links:** Q-PRISM proof commits `53023b6` / `79e8d63` / `de00aca` ·
+`Asolaria-waves-and-cascades-…` (forward/backward duality) · `what-is-asolaria-…` (reductions
+boundary) · `N-Nest-…` (integrity dual) · Metatagging repo (Brown–Fedotov physics grounding).
+E=0 throughout — this entry describes; nothing fires.
+
 ## How it all fits
 The **emitter [2]** produces 200ns PID signals; the **router [1]** delivers them; the **fleet [0]**
 materialises spindles. Each spindle obeys the **reduction principle [3]** / **algorithm [4]** and the
